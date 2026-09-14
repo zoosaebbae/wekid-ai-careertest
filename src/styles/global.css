@@ -66,7 +66,7 @@ button {
 }
 
 .wk-step-logo img {
-  height: 30px;
+  height: 40px;
   object-fit: contain;
 }
 
@@ -109,10 +109,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 14px;
   font-size: 13px;
   color: var(--wk-ink-soft);
-  padding: 4px 0 2px;
+  padding: 8px 0 6px;
 }
 
 .wk-brandline__logo {
@@ -121,16 +121,16 @@ button {
 }
 
 .wk-brandline__logo--wekid {
-  height: 34px;
+  height: 60px;
 }
 
 .wk-brandline__logo--goyang {
-  height: 26px;
+  height: 46px;
 }
 
 .wk-brandline__x {
   color: var(--wk-line);
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
 }
 
