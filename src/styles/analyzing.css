@@ -1,0 +1,28 @@
+.wk-analyzing {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 40px);
+  align-items: center;
+  text-align: center;
+}
+
+.wk-analyzing__spinner {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 6px solid var(--wk-green-pale);
+  border-top-color: var(--wk-green);
+  animation: wk-spin 0.9s linear infinite;
+  margin-bottom: 22px;
+}
+
+.wk-analyzing__msg {
+  margin-top: 10px;
+  transition: opacity 0.2s ease;
+}
+
+@keyframes wk-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
