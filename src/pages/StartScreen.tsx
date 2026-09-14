@@ -3,23 +3,9 @@ import '../styles/start.css';
 export default function StartScreen({ onStart }: { onStart: () => void }) {
   return (
     <div className="wk-start">
-      <div className="wk-brandline wk-brandline--small">
-        <span>WE:KID × 고양시자원봉사센터</span>
-      </div>
-
       <div className="wk-start__hero">
-        <div className="wk-start__orbit">
-          <div className="wk-start__orbit-center">
-            <img src="/wekid-logo.png" alt="WE:KID" className="wk-start__orbit-logo" />
-            <span className="wk-start__orbit-year">2036</span>
-          </div>
-          <span>🧑‍🏫</span>
-          <span>👩‍⚕️</span>
-          <span>🧑‍💻</span>
-          <span>🎨</span>
-          <span>🚒</span>
-          <span>🤖</span>
-        </div>
+        <img src="/wekid-logo.png" alt="WE:KID" className="wk-start__hero-logo wk-start__hero-logo--wekid" />
+        <img src="/goyang-volunteer-logo.png" alt="고양시자원봉사센터" className="wk-start__hero-logo wk-start__hero-logo--goyang" />
       </div>
 
       <p className="wk-eyebrow">🌱 직업 가치관 × AI 미래직업</p>
@@ -44,11 +30,6 @@ export default function StartScreen({ onStart }: { onStart: () => void }) {
       </blockquote>
 
       <div className="wk-spacer" />
-
-      <div className="wk-start__sponsor">
-        <span>협력</span>
-        <img src="/goyang-volunteer-logo.png" alt="고양시자원봉사센터" />
-      </div>
 
       <button className="wk-btn wk-btn--primary" onClick={onStart}>
         테스트 시작하기

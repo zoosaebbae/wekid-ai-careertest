@@ -5,69 +5,28 @@
 }
 
 .wk-start__hero {
-  margin: 22px 0 20px;
-  display: flex;
-  justify-content: center;
-}
-
-.wk-start__orbit {
-  position: relative;
-  width: 220px;
-  height: 220px;
-  border-radius: 50%;
-  border: 2px dashed var(--wk-line);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  background: var(--wk-white);
-  box-shadow: var(--wk-shadow);
-}
-
-.wk-start__orbit::before {
-  content: none;
-}
-
-.wk-start__orbit-center {
+  margin: 26px 0 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 18px;
+  padding: 20px 16px;
+  background: var(--wk-white);
+  border-radius: var(--wk-radius-lg);
+  box-shadow: var(--wk-shadow);
 }
 
-.wk-start__orbit-logo {
-  height: 56px;
+.wk-start__hero-logo {
   object-fit: contain;
 }
 
-.wk-start__orbit-year {
-  font-size: 13px;
-  font-weight: 800;
-  color: var(--wk-green-dark);
-  background: var(--wk-green-pale);
-  padding: 4px 12px;
-  border-radius: 999px;
-  letter-spacing: 0.04em;
+.wk-start__hero-logo--wekid {
+  height: 64px;
 }
 
-.wk-start__orbit span {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--wk-cream);
-  border-radius: 50%;
-  border: 1px solid var(--wk-line);
+.wk-start__hero-logo--goyang {
+  height: 46px;
 }
-
-.wk-start__orbit span:nth-child(1) { top: -6px; left: 50%; transform: translateX(-50%); }
-.wk-start__orbit span:nth-child(2) { top: 30px; right: -10px; }
-.wk-start__orbit span:nth-child(3) { bottom: 30px; right: -10px; }
-.wk-start__orbit span:nth-child(4) { bottom: -6px; left: 50%; transform: translateX(-50%); }
-.wk-start__orbit span:nth-child(5) { bottom: 30px; left: -10px; }
-.wk-start__orbit span:nth-child(6) { top: 30px; left: -10px; background: var(--wk-green); }
 
 .wk-start__meta {
   display: flex;
@@ -91,33 +50,4 @@
   font-size: 14px;
   color: var(--wk-green-dark);
   font-weight: 600;
-}
-
-.wk-brandline--small {
-  justify-content: flex-start;
-  padding: 0 0 6px;
-  font-size: 12px;
-  color: var(--wk-ink-soft);
-}
-
-.wk-start__sponsor {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-.wk-start__sponsor span {
-  font-size: 11px;
-  color: var(--wk-ink-soft);
-  background: var(--wk-white);
-  border: 1px solid var(--wk-line);
-  border-radius: 999px;
-  padding: 3px 9px;
-}
-
-.wk-start__sponsor img {
-  height: 20px;
-  object-fit: contain;
 }
