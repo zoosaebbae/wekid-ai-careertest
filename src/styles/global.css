@@ -59,6 +59,17 @@ button {
   flex-direction: column;
 }
 
+.wk-step-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}
+
+.wk-step-logo img {
+  height: 22px;
+  object-fit: contain;
+}
+
 .wk-topbar {
   display: flex;
   align-items: center;
@@ -102,11 +113,22 @@ button {
   color: var(--wk-ink-soft);
 }
 
-.wk-brandline__dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--wk-green);
+.wk-brandline__logo {
+  display: block;
+  object-fit: contain;
+}
+
+.wk-brandline__logo--wekid {
+  height: 20px;
+}
+
+.wk-brandline__logo--goyang {
+  height: 16px;
+}
+
+.wk-brandline__x {
+  color: var(--wk-line);
+  font-size: 12px;
 }
 
 .wk-btn {

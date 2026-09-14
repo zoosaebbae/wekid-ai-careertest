@@ -76,7 +76,7 @@ export default function ResultScreen({ job, jobMode, topValues, impact, onRestar
 
       <div className="wk-ticket" ref={captureRef}>
         <div className="wk-ticket__header">
-          <span>WE:KID</span>
+          <img src="/wekid-logo.png" alt="WE:KID" className="wk-ticket__header-logo" />
           <span>2036 CAREER FORECAST</span>
         </div>
 
@@ -168,7 +168,11 @@ export default function ResultScreen({ job, jobMode, topValues, impact, onRestar
           AI를 활용하면서 사람만이 할 수 있는 일을 잘하는 것.”
         </blockquote>
 
-        <div className="wk-ticket__footer">WE:KID × 고양시자원봉사센터</div>
+        <div className="wk-ticket__footer">
+          <img src="/wekid-logo.png" alt="WE:KID" className="wk-ticket__footer-logo" />
+          <span className="wk-ticket__footer-x">×</span>
+          <img src="/goyang-volunteer-logo.png" alt="고양시자원봉사센터" className="wk-ticket__footer-logo wk-ticket__footer-logo--goyang" />
+        </div>
       </div>
 
       <button className="wk-btn wk-btn--primary wk-result__save" onClick={handleSave} disabled={saving}>

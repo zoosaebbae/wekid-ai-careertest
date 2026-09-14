@@ -41,6 +41,9 @@ export default function QuizScreen({ questions, answers, onAnswer, onBack, onCom
 
   return (
     <div className="wk-quiz">
+      <div className="wk-step-logo">
+        <img src="/wekid-logo.png" alt="WE:KID" />
+      </div>
       <div className="wk-topbar">
         <button className="wk-back" onClick={handleBack} aria-label="이전">
           ‹

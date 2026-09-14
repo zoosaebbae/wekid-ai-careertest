@@ -4,8 +4,9 @@ export default function StartScreen({ onStart }: { onStart: () => void }) {
   return (
     <div className="wk-start">
       <div className="wk-brandline">
-        <span className="wk-brandline__dot" />
-        WE:KID × 고양시자원봉사센터
+        <img src="/wekid-logo.png" alt="WE:KID" className="wk-brandline__logo wk-brandline__logo--wekid" />
+        <span className="wk-brandline__x">×</span>
+        <img src="/goyang-volunteer-logo.png" alt="고양시자원봉사센터" className="wk-brandline__logo wk-brandline__logo--goyang" />
       </div>
 
       <div className="wk-start__hero">

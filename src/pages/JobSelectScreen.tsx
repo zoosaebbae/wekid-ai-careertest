@@ -32,6 +32,9 @@ export default function JobSelectScreen({ mode, onModeChange, onBack, onConfirm 
 
   return (
     <div className="wk-job">
+      <div className="wk-step-logo">
+        <img src="/wekid-logo.png" alt="WE:KID" />
+      </div>
       <div className="wk-topbar">
         <button className="wk-back" onClick={onBack} aria-label="뒤로가기">
           ‹

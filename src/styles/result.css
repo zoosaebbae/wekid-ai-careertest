@@ -15,6 +15,7 @@
 .wk-ticket__header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 11px;
   letter-spacing: 0.08em;
   color: var(--wk-green-dark);
@@ -22,6 +23,11 @@
   padding-bottom: 12px;
   margin-bottom: 14px;
   border-bottom: 2px dashed var(--wk-line);
+}
+
+.wk-ticket__header-logo {
+  height: 22px;
+  object-fit: contain;
 }
 
 .wk-ticket__title {
@@ -219,10 +225,25 @@
 }
 
 .wk-ticket__footer {
-  text-align: center;
-  font-size: 11px;
-  color: var(--wk-ink-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   margin-top: 16px;
+}
+
+.wk-ticket__footer-logo {
+  height: 16px;
+  object-fit: contain;
+}
+
+.wk-ticket__footer-logo--goyang {
+  height: 13px;
+}
+
+.wk-ticket__footer-x {
+  color: var(--wk-line);
+  font-size: 11px;
 }
 
 .wk-result__save {
