@@ -26,7 +26,7 @@
 }
 
 .wk-ticket__header-logo {
-  height: 22px;
+  height: 26px;
   object-fit: contain;
 }
 
@@ -233,12 +233,12 @@
 }
 
 .wk-ticket__footer-logo {
-  height: 16px;
+  height: 20px;
   object-fit: contain;
 }
 
 .wk-ticket__footer-logo--goyang {
-  height: 13px;
+  height: 16px;
 }
 
 .wk-ticket__footer-x {
